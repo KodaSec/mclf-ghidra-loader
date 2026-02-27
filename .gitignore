@@ -1,8 +1,24 @@
-.*
-*.zip
-*.jar
-*.log
+# Build outputs
+build/
+dist/
+bin/
+
+# Java artifacts
 *.class
-bin/*
-build/*
-!/.gitignore
+*.jar
+
+# Gradle
+.gradle/
+
+# IDE
+.idea/
+*.iml
+.project
+.classpath
+.settings/
+.vscode/
+.claude/
+.codex/
+
+# Misc
+*.log

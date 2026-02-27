@@ -28,7 +28,7 @@ public class MCLFHeader implements StructConverter {
     public long bssLen;
     public Address entry;
     public long serviceVersion;
-    
+
     public MCLFHeader(FlatProgramAPI api, BinaryReader reader) throws IOException {
         reader.setPointerIndex(0);
         intro = reader.readNextAsciiString(4);
